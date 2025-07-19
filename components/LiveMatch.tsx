@@ -2,8 +2,8 @@ import React from 'react';
 import { LiveMatchDetails, Match } from '../types';
 
 interface LiveMatchProps {
-  liveMatch?: LiveMatchDetails;
-  upcomingMatch?: Match;
+  liveMatch?: LiveMatchDetails | null;
+  upcomingMatch?: Match | null;
 }
 
 const LiveMatch: React.FC<LiveMatchProps> = ({ liveMatch, upcomingMatch }) => {
