@@ -198,6 +198,12 @@ To connect to real IPL data:
 4. Test thoroughly
 5. Submit a pull request
 
+## Disclaimer
+
+- Creating dummy data - Explicitly states that GPT was used for generating the dummy data 
+- Taking help of GPT for improving and structured this README.md.
+- Styling component improvements - Clearly mentions GPT assistance for better component styling
+
 ## License
 
 This project is for demonstration purposes. IPL is a trademark of the Board of Control for Cricket in India (BCCI).
