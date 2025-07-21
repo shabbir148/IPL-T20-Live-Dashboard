@@ -53,17 +53,17 @@ const MatchSchedule: React.FC<MatchScheduleProps> = ({ matches }) => {
               className="p-4 hover:bg-gray-50 transition-colors min-w-max"
             >
               {/* Desktop view */}
-              <div className="hidden md:flex items-center justify-between min-w-[800px]">
+              <div className="hidden md:flex items-center justify-between min-w-[200px]">
                 <div className="flex items-center space-x-4 flex-1">
-                  <div className="text-sm text-gray-500 min-w-20">
+                  <div className="text-sm text-gray-500 min-w-8">
                     {formatDate(match.date)}
                   </div>
-                  <div className="text-sm text-gray-500 min-w-16">
+                  <div className="text-sm text-gray-500 min-w-8">
                     {match.time}
                   </div>
 
                   <div className="flex items-center space-x-4 flex-1">
-                    <div className="flex items-center space-x-2 min-w-32">
+                    <div className="flex items-center space-x-2 min-w-24">
                       <span className="text-xl">{match.team1.logo}</span>
                       <span className="font-medium whitespace-nowrap">
                         {match.team1.shortName}
@@ -72,7 +72,7 @@ const MatchSchedule: React.FC<MatchScheduleProps> = ({ matches }) => {
 
                     <span className="text-gray-400 font-medium">VS</span>
 
-                    <div className="flex items-center space-x-2 min-w-32">
+                    <div className="flex items-center space-x-2 min-w-24">
                       <span className="text-xl">{match.team2.logo}</span>
                       <span className="font-medium whitespace-nowrap">
                         {match.team2.shortName}
@@ -92,7 +92,7 @@ const MatchSchedule: React.FC<MatchScheduleProps> = ({ matches }) => {
                       </div>
                     </div>
                   )}
-                  <div className="min-w-20">{getStatusBadge(match.status)}</div>
+                  <div className="min-w-12">{getStatusBadge(match.status)}</div>
                 </div>
               </div>
 
@@ -139,7 +139,7 @@ const MatchSchedule: React.FC<MatchScheduleProps> = ({ matches }) => {
               </div>
 
               {/* Venue for desktop */}
-              <div className="hidden md:block text-xs text-gray-500 mt-2 pl-44 whitespace-nowrap">
+              <div className="hidden md:block text-xs text-gray-500 mt-2 pl-40 whitespace-nowrap">
                 {match.venue}
               </div>
             </div>
