@@ -2,6 +2,8 @@
 
 A responsive web application that displays real-time IPL T20 match information, points table, and match schedule. Built with Next.js, TypeScript, and Tailwind CSS with a mobile-first design approach.
 
+Live Demo: [live](https://ipl-t20-live-dashboard-mu.vercel.app/)
+
 ## Features
 
 - **Live Match Updates**: Real-time display of ongoing matches with scores, overs, and match details
